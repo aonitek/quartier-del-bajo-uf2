@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aonitek.github.io/quartier-del-bajo-uf2/sitemap.xml
