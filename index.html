@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/quartier-del-bajo-uf2/">
+<!-- BASE:END -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+<!-- SEO Meta Tags -->
+<title>Puerto Madero, terminado. Entrega inmediata. Precio de entrada.</title>
+<meta name="description" content="35 m² en Quartier del Bajo, Torre 1 Piso 9. Amenities de categoría hotelera en los pisos 35 y 36. USD 155.000, contado en dólares." />
+<meta name="keywords" content="monoambiente Puerto Madero Quartier del Bajo" />
+<meta property="og:title" content="Puerto Madero, terminado. Entrega inmediata. Precio de entrada." />
+<meta property="og:description" content="35 m² en Quartier del Bajo, Torre 1 Piso 9. Amenities de categoría hotelera en los pisos 35 y 36. USD 155.000, contado en dólares." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Puerto Madero, terminado. Entrega inmediata. Precio de entrada." />
+<meta name="twitter:description" content="35 m² en Quartier del Bajo, Torre 1 Piso 9. Amenities de categoría hotelera en los pisos 35 y 36. USD 155.000, contado en dólares." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mttkyplb-copip";
+  var SITEK="";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  function siteTok(){try{return SITEK?localStorage.getItem(SITEK):null;}catch(e){return null;}}
+  var u=new URL(location.href);var found=null;var changed=false;
+  var PINP=true;
+  if(!PINP){try{localStorage.removeItem('lp_pin_'+slug);if(SITEK)localStorage.removeItem(SITEK);}catch(e){}}
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{if(PINP||p!=='pin_access_token'){localStorage.setItem(map[p]+slug,v);if(SITEK&&p==='pin_access_token')localStorage.setItem(SITEK,v);}}catch(e){}if(p==='pin_access_token'){try{sessionStorage.setItem('lp_fresh_'+slug,'1');}catch(e){}}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug)||siteTok();if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug)||siteTok();}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://app.aonitek.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=6968');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='TFp52dQ8X';
+  var apiBase='https://app.aonitek.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    var phone=findPhone();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,phone:phone||'',amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var sidP=urlParams.get('session_id');
+      if(sidP){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidP})}).catch(function(){});}catch(e){}}
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script data-cart>
+(function(){
+  var slug='TFp52dQ8X';
+  var apiBase='https://app.aonitek.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findCartEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  function findCartPhone(){var ids=['phone','phoneNumber','phone-number','tel','telephone','mobile','mobileNumber','cell','contact-phone','buyer-phone'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.trim())return el.value.trim();}var inputs=document.querySelectorAll('input[type="tel"],input[name*="phone"],input[name*="tel"],input[name*="mobile"],input[placeholder*="phone"],input[placeholder*="Phone"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.trim())return inputs[j].value.trim();}return '';}
+  var __realCart=function(arg){
+    var items, email='', customerName='', successUrl, cancelUrl, currency;
+    if(Array.isArray(arg)){items=arg;}
+    else if(arg&&typeof arg==='object'){
+      items=arg.items;email=arg.email||'';customerName=arg.name||arg.customerName||'';
+      successUrl=arg.successUrl;cancelUrl=arg.cancelUrl;currency=arg.currency;
+    }
+    if(!Array.isArray(items)||items.length===0){alert('No items in cart.');return Promise.reject('no_items');}
+    var cleanItems=[];var totalCents=0;
+    for(var i=0;i<items.length;i++){
+      var it=items[i];if(!it||typeof it!=='object'){alert('Invalid item at position '+i);return Promise.reject('bad_item');}
+      var nm=typeof it.name==='string'?it.name.trim():'';
+      if(!nm){alert('Item '+(i+1)+' is missing a name.');return Promise.reject('no_name');}
+      var amt=typeof it.amountCents==='number'?it.amountCents:(typeof it.amount==='number'?Math.round(it.amount*100):NaN);
+      if(!isFinite(amt)||amt<1){alert('Item "'+nm+'" needs a valid amount in cents.');return Promise.reject('bad_amount');}
+      var qty=(typeof it.quantity==='number'&&it.quantity>0)?Math.floor(it.quantity):1;
+      cleanItems.push({name:nm,description:it.description||'',amountCents:amt,quantity:qty});
+      totalCents+=amt*qty;
+    }
+    if(totalCents<50){alert('Cart total must be at least $0.50');return Promise.reject('total_too_low');}
+    if(!email)email=findCartEmail();
+    if(!customerName)customerName=findCartName();
+    var cartPhone=findCartPhone();
+    if(!email){var p=window.prompt('Enter your email for the receipt:','');if(p&&p.indexOf('@')>-1){email=p.trim();}else{alert('An email address is required to complete checkout.');return Promise.reject('no_email');}}
+    var successBase=window.location.href.split('?')[0];
+    var body={email:email,name:customerName,items:cleanItems,locale:(document.documentElement.lang||navigator.language||'en')};
+    if(currency)body.currency=currency;
+    if(cartPhone)body.phone=cartPhone;
+    body.successUrl=successUrl||(successBase+'?cart=success&email='+encodeURIComponent(email)+'&session_id={CHECKOUT_SESSION_ID}');
+    body.cancelUrl=cancelUrl||(successBase+'?cart=cancelled');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/cart/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process checkout');throw new Error(d.error);}
+    });
+  };
+  try{Object.defineProperty(window,'__processCart',{value:__realCart,writable:false,configurable:false});}catch(e){window.__processCart=__realCart;}
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('cart')==='success'){
+      var sidC=urlParams.get('session_id');
+      if(sidC){try{fetch(apiBase+'/api/landing-pages/public/'+slug+'/checkout/confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:sidC})}).catch(function(){});}catch(e){}}
+      if(document.getElementById('payment-success-overlay')||document.getElementById('donation-success-overlay')||document.getElementById('cart-success-overlay'))return;
+      var overlay=document.createElement('div');overlay.id='cart-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||'Thank you for your order.';
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Order Confirmed!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-cart-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var cBtn=document.getElementById('lp-cart-success-btn');
+      if(cBtn){cBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap navrow">
+    <div class="brand">Quartier del Bajo · <em>UF 2</em></div>
+    <div class="navlinks">
+      <a href="#cesion">Cómo se compra</a>
+      <a href="#edificio">El edificio</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#unidad">La unidad</a>
+      <a href="#renta">Renta</a>
+    </div>
+    <a href="#contacto" class="btn">Ficha completa</a>
+  </div>
+</nav>
+
+<header data-section="hero">
+  <div class="ph hero-ph"><span>[ FOTO — Torre Quartier del Bajo de noche, vista aérea sobre los diques. Reemplazar por Edificio.jpg ]</span></div>
+  <div class="wrap">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">Puerto Madero · Corredor Huergo · Torre 1</div>
+        <h1>Puerto Madero,<br>terminado.<em>Precio de entrada.</em></h1>
+        <p class="hero-sub">Monoambiente de 35 m² en Quartier del Bajo, Torre 1, Piso 9, Sector Ciudad. Las dos torres del complejo están terminadas y entregadas. Amenities de categoría hotelera en los pisos 35 y 36.</p>
+        <div class="chips">
+          <div class="chip">Superficie<b>35 m²</b></div>
+          <div class="chip">Ubicación<b>Torre 1 · Piso 9</b></div>
+          <div class="chip">Disponibilidad<b>Entrega inmediata</b></div>
+          <div class="chip">Expensas<b>$168.900</b></div>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="priceblock">
+          <div class="lbl">Precio de publicación</div>
+          <div class="amt">USD 155.000</div>
+          <div class="per">≈ USD 4.430 / m² · Contado en dólares</div>
+        </div>
+        <a href="#contacto" class="btn">Quiero la ficha completa</a>
+        <a href="#cesion" class="btn ghost" style="margin-top:10px">Cómo se instrumenta</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="numbers" data-section="numeros">
+  <div class="wrap">
+    <div class="eyebrow reveal">La oportunidad en tres números</div>
+    <div class="numgrid" style="margin-top:44px">
+      <div class="num reveal">
+        <div class="big">USD 4.430/m²</div>
+        <p>El promedio de Puerto Madero se releva entre USD 4.680 y 6.300/m², y los diques entre 7.000 y 9.000/m². El mismo barrio, a una fracción del ticket.</p>
+      </div>
+      <div class="num reveal">
+        <div class="big">USD 1.000 – 1.200</div>
+        <p>Es el alquiler mensual que hoy tienen publicado monoambientes de esta misma tipología dentro de Quartier del Bajo, en modalidad tradicional y temporaria.</p>
+      </div>
+      <div class="num reveal">
+        <div class="big">$168.900</div>
+        <p>Expensas de la unidad. En el medio de la banda del complejo para 35 m², y contenidas para una torre con amenities en los pisos 35 y 36.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="videoblock" data-section="video">
+  <div class="wrap">
+    <div class="videohead">
+      <div class="reveal">
+        <div class="eyebrow">El complejo</div>
+        <h2>Dos torres de <em>36 pisos</em></h2>
+      </div>
+      <p class="reveal">Proyectadas por el estudio Camps | Tiscornia para Argencons, sobre la manzana entre Av. Huergo y las calles Venezuela, México y Azopardo. Unidas por una plaza central de acceso.</p>
+    </div>
+    <div class="vframe reveal">
+      <iframe src="https://www.youtube-nocookie.com/embed/_r9RZPzp7ok?rel=0" title="Quartier del Bajo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="light-band" id="cesion" data-section="cesion">
+  <div class="wrap">
+    <div class="eyebrow reveal">Transparencia desde el primer minuto</div>
+    <h2 class="reveal" style="margin-top:20px">Cómo se <em>instrumenta</em> la compra</h2>
+    <p class="lead reveal">Esta unidad se transfiere por <strong>cesión de derechos sobre unidad ya adjudicada</strong>. Es la modalidad estándar con la que se comercializan las unidades de Quartier del Bajo — incluidas las que vende el propio desarrollador.</p>
+
+    <div class="cesion-grid">
+      <div class="reveal">
+        <h3 style="font-size:26px;margin-bottom:26px">El circuito hasta la escritura</h3>
+        <ol class="steps">
+          <li><strong>Torres terminadas</strong><span>Ambas torres del complejo están construidas, entregadas y en uso.</span></li>
+          <li><strong>Plano de subdivisión</strong><span>En trámite la aprobación de la subdivisión en Propiedad Horizontal.</span></li>
+          <li><strong>Reglamento de PH</strong><span>Con el plano aprobado se otorga e inscribe la escritura del Reglamento de Propiedad Horizontal.</span></li>
+          <li><strong>Escrituras traslativas de dominio</strong><span>A partir de esa inscripción comienza la firma de escrituras y queda operativo el Consorcio de Propietarios.</span></li>
+          <li><strong>Estimación de la fiduciaria: 2027</strong><span>Es una estimación informada por la fiduciaria, no un plazo contractual. Lo comunicamos como tal.</span></li>
+        </ol>
+      </div>
+
+      <div class="reveal">
+        <div class="callout">
+          <h3>No es letra chica: es el estándar del complejo</h3>
+          <p>Los avisos oficiales de Quartier del Bajo, publicados por la comercializadora del desarrollador, consignan expresamente esta figura y esta condición de pago.</p>
+          <div class="quote">"Cesión de unidad ya adjudicada — Pago efectivo 100% — Entrega inmediata."</div>
+          <p>El mismo texto aparece en unidades del edificio de hasta USD 730.000. Y todos los avisos del complejo cierran aclarando que las medidas exactas surgirán de la escritura traslativa de dominio.</p>
+        </div>
+        <div class="hard">
+          <p><b>Condición de pago: contado 100% en dólares.</b><br>Esta modalidad no admite crédito hipotecario — sin Reglamento de PH inscripto no hay matrícula sobre la que un banco pueda constituir garantía. Te lo decimos de entrada para no hacerte perder tiempo.</p>
+        </div>
+        <div class="hard" style="background:var(--ink-3)">
+          <p><b>Documentación completa, disponible.</b><br>Comunicado de la fiduciaria, estado del trámite de subdivisión y documentación de la adjudicación, para que lo revises con tu escribano o abogado antes de avanzar. Preferimos que tengas todo esto hoy y no en la mesa de firma.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="edificio" data-section="edificio">
+  <div class="wrap">
+    <div class="two offset">
+      <div class="reveal">
+        <div class="eyebrow">El desarrollador</div>
+        <h2 style="margin-top:20px">Un <em>Argencons</em>,<br>y está terminado</h2>
+        <p class="lead">Argencons es la desarrolladora detrás de Distrito Quartier, el complejo de más de 115.000 m² que reactivó esta misma zona del sur porteño, y de Quartier Puerto Madero, Lacroze, del Polo y Libertador.</p>
+        <ul class="factlist">
+          <li>Ambas torres terminadas y entregadas</li>
+          <li>Seguridad 24 hs con puesto en el hall de cada torre, más doble control sobre subsuelos y plaza central</li>
+          <li>Grupo electrógeno propio por torre</li>
+          <li>Dos baterías de 3 ascensores principales por torre — una por sector — más ascensor de servicio</li>
+          <li>Tres subsuelos comunes con cocheras, espacio para motos y bicicleteros</li>
+          <li>Locales comerciales en planta baja con expansión sobre la plaza central</li>
+          <li>4,3 ★ en Google Business</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="ph" style="aspect-ratio:4/5"><span>[ FOTO — Hall de acceso, doble altura. Reemplazar por Hall.jpg o Hall_2.jpg ]</span></div>
+        <div class="ph" style="aspect-ratio:16/10;margin-top:22px"><span>[ FOTO — Lounge de propietarios con vista al skyline. Reemplazar por Lounge.jpg ]</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec barrio" data-section="barrio">
+  <div class="wrap">
+    <div class="eyebrow reveal">El barrio</div>
+    <h2 class="reveal" style="margin-top:20px">Construido sobre el <em>Paseo del Bajo</em></h2>
+    <p class="lead reveal">Inaugurado en 2019: 7,1 km que conectan las autopistas Illia y Buenos Aires–La Plata, con el tránsito pesado circulando por trinchera subterránea y el liviano a nivel de calle. No es una promesa a futuro — ya está terminado y funcionando.</p>
+
+    <div class="mline">
+      <div class="reveal"><h4>Menos tránsito pesado</h4><p>Camiones y micros de larga distancia van soterrados, liberando Huergo y Alicia Moreau de Justo.</p></div>
+      <div class="reveal"><h4>60.000 m² de verde</h4><p>Nuevos espacios verdes y red de ciclovías integrada, conectados con el Parque del Bajo y la plaza de la UCA.</p></div>
+      <div class="reveal"><h4>Conectividad Norte–Sur</h4><p>Menos tiempo de viaje a Retiro y al Microcentro, y acceso directo a las principales autopistas.</p></div>
+    </div>
+
+    <div class="jump reveal">
+      <p>El efecto sobre el corredor Huergo: pasó de cerca de <b>USD 1.900/m²</b> a un rango de <b>USD 2.500 a 4.500/m²</b>, siendo la única zona de la Ciudad con récord de ventas en un mercado friccionado. Y la inversión sigue llegando: Madero Harbour anunció USD 450 millones adicionales, con nuevo shopping y marcas internacionales.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="amenities" data-section="amenities">
+  <div class="wrap">
+    <div class="eyebrow reveal">Pisos 35 y 36</div>
+    <h2 class="reveal" style="margin-top:20px">Servicios de <em>hotel</em>,<br>arriba de todo</h2>
+
+    <div class="amgrid">
+      <div class="am am-a reveal">
+        <div class="ph"><span>[ FOTO — Piscina exterior con solárium, piso 36. Reemplazar por piscina_exterior.jpg ]</span></div>
+        <div class="amcap"><h4>Piscina exterior y solárium</h4><p>Piso 36, con quinchos con parrilla y vistas panorámicas al río y a la ciudad desde el punto más alto de la torre.</p></div>
+      </div>
+      <div class="am am-b reveal">
+        <div class="ph"><span>[ FOTO — Sauna finlandés en madera. Reemplazar por Sauna.jpg ]</span></div>
+        <div class="amcap"><h4>Spa, sauna y baño finlandés</h4><p>Con sala de masajes e hidromasajes, en el piso 35.</p></div>
+      </div>
+      <div class="am am-c reveal">
+        <div class="ph"><span>[ FOTO — Piscina cubierta climatizada. Reemplazar por piscina_interior.jpg ]</span></div>
+        <div class="amcap"><h4>Piscina climatizada</h4><p>Cubierta, para uso durante todo el año.</p></div>
+      </div>
+      <div class="am am-d reveal">
+        <div class="ph"><span>[ FOTO — Gimnasio con ventanal al skyline. Reemplazar por Gym.jpg ]</span></div>
+        <div class="amcap"><h4>Gimnasio, SUM y coworking</h4><p>Equipamiento completo con vestuarios, y espacios para trabajar o recibir sin salir del edificio. Laundry apto para funcionar concesionado, sin costo de mantenimiento para el consorcio.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="unidad" style="background:var(--ink-2);border-top:1px solid var(--rule)" data-section="unidad">
+  <div class="wrap">
+    <div class="eyebrow reveal">Torre 1 · Piso 9 · Sector Ciudad</div>
+    <h2 class="reveal" style="margin-top:20px">La <em>unidad</em></h2>
+
+    <div class="unit">
+      <div class="unit-imgs reveal">
+        <div class="ph" style="aspect-ratio:4/3"><span>[ FOTO — Ambiente único con salida al balcón. Pendiente de envío ]</span></div>
+        <div class="ph" style="aspect-ratio:4/3"><span>[ FOTO — Cocina integrada y baño. Pendiente de envío ]</span></div>
+        <div class="ph" style="aspect-ratio:3/2"><span>[ PLANO — UF Nº 2, Piso 9, Sector Ciudad, Torre 1 ]</span></div>
+      </div>
+      <div class="reveal">
+        <h3 style="font-size:26px;margin-bottom:6px">Terminaciones</h3>
+        <ul class="factlist" style="margin-top:18px">
+          <li>Ambiente único con salida al balcón</li>
+          <li>Pisos vinílicos símil madera; cielorraso de hormigón visto en el ambiente principal</li>
+          <li>Cocina integrada con mesada de granito, neolit o similar, muebles bajo mesada y anafe eléctrico de dos hornallas</li>
+          <li>Baño con mesada de mármol o neolit, piso de porcelanato, puerta corrediza y ducha con paño fijo de vidrio</li>
+          <li>Carpinterías exteriores de aluminio de alta prestación con doble vidriado hermético</li>
+          <li>Climatización por split frío/calor</li>
+          <li>Agua caliente por termotanque eléctrico individual</li>
+        </ul>
+
+        <div class="frank">
+          <h4>Dos aclaraciones que preferimos hacer de frente</h4>
+          <p><em>No tiene cochera.</em> Es parte de lo que permite este ticket de entrada — los comparables de la misma tipología en el edificio tampoco la incluyen. El complejo tiene tres subsuelos comunes a las dos torres; consultanos por disponibilidad de cochera en alquiler o en venta.</p>
+          <p><em>No tiene gas natural.</em> Ninguna unidad del complejo lo tiene: está diseñado como edificio íntegramente eléctrico, con anafe eléctrico, termotanque individual y climatización por split. No es una carencia de esta unidad en particular.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="renta" data-section="renta">
+  <div class="wrap">
+    <div class="eyebrow reveal">Inversión y renta</div>
+    <h2 class="reveal" style="margin-top:20px">Los números, con datos <em>del propio edificio</em></h2>
+    <p class="lead reveal">Quartier del Bajo es apto alquiler temporario y ya tiene operadores activos gestionando unidades dentro del complejo, con huéspedes que destacan la pileta exterior, el sauna, la terraza y la ubicación — de 4 a 9 minutos caminando de Casa Rosada y Plaza de Mayo.</p>
+
+    <table class="reveal">
+      <thead><tr><th>Tipología</th><th>Modalidad</th><th>Valor mensual</th></tr></thead>
+      <tbody>
+        <tr><td>Monoambiente 35 m², piso alto</td><td>Temporario amoblado, mínimo 3 meses</td><td>USD 1.100</td></tr>
+        <tr><td>Monoambiente 35 m², piso 34</td><td>Tradicional amoblado</td><td>USD 1.000</td></tr>
+        <tr><td>Monoambiente 35 m², piso alto Sector Río</td><td>Temporario amoblado</td><td>USD 1.200</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:13.5px;color:var(--muted);margin-top:14px">Valores + gastos, tomados de avisos activos del edificio. Expensas de la unidad: $168.900.</p>
+
+    <div class="honest reveal">
+      <h4>Y una aclaración honesta</h4>
+      <p>Puerto Madero tiene la rentabilidad de alquiler más baja de la Ciudad (3,3%), que es la contracara lógica de ser el barrio más caro. El fuerte de esta compra es el ticket de entrada, la entrega inmediata y la reserva de valor en dólares — no un yield récord. El monoambiente es, eso sí, la tipología con más rotación de alquiler temporario del edificio.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec-tight" data-section="faq">
+  <div class="wrap">
+    <div class="eyebrow reveal">Preguntas frecuentes</div>
+    <h2 class="reveal" style="margin-top:20px;font-size:clamp(1.9rem,3.2vw,2.8rem)">Todo lo que <em>conviene</em> preguntar</h2>
+    <div class="faq">
+      <details><summary>¿Por qué no tiene escritura todavía?</summary><p>Porque el complejo está en trámite de subdivisión en Propiedad Horizontal. Las torres están terminadas y entregadas, pero la escritura del Reglamento de PH se otorga e inscribe una vez aprobado el plano de subdivisión, y solo a partir de ahí comienza la firma de las escrituras traslativas de dominio. La fiduciaria estima que eso ocurrirá durante 2027. Es la situación de todas las unidades del complejo, incluidas las que comercializa el propio desarrollador.</p></details>
+      <details><summary>¿Cómo se instrumenta la compra mientras tanto?</summary><p>Por cesión de derechos sobre la unidad ya adjudicada. Es la modalidad estándar con la que se venden las unidades de Quartier del Bajo. Te entregamos toda la documentación para que la revise tu escribano antes de avanzar.</p></details>
+      <details><summary>¿Puedo comprarla con crédito hipotecario?</summary><p>No. La operación es contado 100% en dólares. Ningún banco toma garantía hipotecaria sobre una unidad que todavía no está inscripta, y esa es la misma condición que fija el desarrollador en sus propias unidades en cesión.</p></details>
+      <details><summary>¿Qué pasa si se demora la escritura más allá de 2027?</summary><p>La cesión te coloca en la posición contractual de adjudicatario frente al fideicomiso, con derecho a la escritura cuando el trámite se complete. El cronograma es una estimación de la fiduciaria, no un plazo contractual, y así lo comunicamos. Toda la documentación del estado del trámite está a tu disposición.</p></details>
+      <details><summary>¿Cuánto son las expensas?</summary><p>$168.900. Está en el medio de la banda del complejo para esta tipología, y es un valor contenido para una torre con amenities en los pisos 35 y 36. Argencons diseña el Reglamento de PH y el Reglamento Interno apuntando explícitamente a bajos costos por expensas.</p></details>
+      <details><summary>¿Tiene cochera? ¿Puedo conseguir una?</summary><p>La unidad no incluye cochera. El complejo tiene tres subsuelos comunes a las dos torres; consultanos por disponibilidad de cochera en alquiler o en venta dentro del edificio.</p></details>
+      <details><summary>¿Tiene gas natural? ¿Cómo se calefacciona?</summary><p>No. Ninguna unidad del complejo tiene gas natural: es un edificio íntegramente eléctrico por diseño. Calefacción y refrigeración por split frío/calor, agua caliente por termotanque eléctrico individual, anafe eléctrico de dos hornallas.</p></details>
+      <details><summary>¿Cuál es la diferencia entre Sector Ciudad y Sector Río?</summary><p>Cada torre tiene dos sectores de 6 unidades por piso, servidos por baterías de ascensores independientes. El Sector Río mira hacia el río y los diques; el Sector Ciudad, hacia la manzana y el skyline. Esta unidad es Sector Ciudad, y eso está reflejado en el precio: es la razón por la que se ofrece por debajo de las unidades comparables con vista al río.</p></details>
+      <details><summary>¿Se puede alquilar temporariamente?</summary><p>Sí. El complejo es exclusivamente residencial y apto alquiler temporario, con un mínimo de días definido por la desarrolladora. Ya hay operadores de temporario activos dentro del edificio.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="formsec" id="contacto" data-section="formulario">
+  <div class="wrap">
+    <div class="eyebrow reveal">Siguiente paso</div>
+    <h2 class="reveal" style="margin-top:20px">Pedí la <em>ficha completa</em></h2>
+    <p class="lead reveal">Te enviamos el plano de la unidad, las fotos, la documentación de la cesión y el cronograma de escrituración informado por la fiduciaria.</p>
+
+    <div class="formgrid">
+      <div class="reveal">
+        <div class="aside-note">
+          <h4>¿Por qué preguntamos por fondos propios?</h4>
+          <p>Porque la modalidad de cesión es contado 100% en dólares, sin excepción. Si necesitás crédito, esta unidad no te va a servir — y preferimos decirlo antes de coordinar una visita que no puede terminar en operación.</p>
+        </div>
+        <div class="aside-note" style="margin-top:30px">
+          <h4>Informe de inversión</h4>
+          <p>Junto con la ficha te enviamos el informe completo: mercado del corredor Huergo, evolución de precios de la zona, números de renta reales del edificio, expensas y la comunicación de la fiduciaria sobre el trámite de subdivisión.</p>
+        </div>
+      </div>
+
+      <form>
+        <div class="field">
+          <label for="nombre">Nombre y apellido</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="field">
+          <label for="whatsapp">WhatsApp</label>
+          <input type="tel" id="whatsapp" name="whatsapp" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="interes">¿Qué te interesa más?</label>
+          <select id="interes" name="interes">
+            <option value="">Elegí una opción</option>
+            <option>Invertir</option>
+            <option>Vivir</option>
+            <option>Ambos</option>
+          </select>
+        </div>
+        <div class="qual">
+          <label for="fondos">¿La operación sería con fondos propios en dólares?</label>
+          <select id="fondos" name="fondos" required>
+            <option value="">Elegí una opción</option>
+            <option>Sí</option>
+            <option>No</option>
+            <option>Quiero consultarlo</option>
+          </select>
+          <div class="note">La modalidad de cesión es contado 100% en dólares. Te lo preguntamos para no hacerte perder tiempo.</div>
+        </div>
+        <button type="submit" class="btn dark">Enviar y recibir la ficha</button>
+        <a href="#" class="wa" id="wa-link">Prefiero escribir por WhatsApp</a>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="frow">
+      <div>
+        <div class="brand" style="font-size:22px">Quartier del Bajo · <em>UF 2, Piso 9</em></div>
+        <p style="margin-top:14px">Av. Ing. Huergo 551, Puerto Madero, Ciudad Autónoma de Buenos Aires.<br>Torre 1 · Piso 9 · Sector Ciudad · Unidad Funcional Nº 2.</p>
+      </div>
+      <div style="text-align:right;min-width:220px">
+        <p style="font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--copper)">Contacto</p>
+        <p style="margin-top:10px">[ TELÉFONO / WHATSAPP ]<br>[ EMAIL ]<br>[ MATRÍCULA CUCICBA, si corresponde ]</p>
+      </div>
+    </div>
+    <p class="legal">Los metros publicados son aproximados; las medidas exactas surgirán de la escritura traslativa de dominio. La unidad se transfiere por cesión de derechos sobre unidad ya adjudicada, con pago contado 100% en dólares; la operación no admite crédito hipotecario. El cronograma de escrituración indicado es una estimación informada por la fiduciaria y no constituye un plazo contractual. Las imágenes de áreas comunes corresponden al complejo y tienen carácter ilustrativo. Esta publicación no constituye oferta ni asesoramiento legal, impositivo o financiero.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
