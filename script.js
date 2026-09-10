@@ -2,7 +2,6 @@
   var nav=document.getElementById('nav');
   function onScroll(){ nav.classList.toggle('stuck', window.scrollY>60); }
   window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
-
   var els=document.querySelectorAll('.reveal');
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(entries){
