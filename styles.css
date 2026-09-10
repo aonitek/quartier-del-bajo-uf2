@@ -64,6 +64,14 @@ nav.stuck{background:rgba(18,19,15,.9);backdrop-filter:blur(14px);padding:12px 0
 .btn.dark:hover{background:transparent;color:var(--ink)}
 .navrow .btn{padding:11px 20px}
 
+/* marcador de venta directa */
+.direct-tag{
+  display:inline-flex;align-items:center;gap:10px;margin-bottom:20px;
+  padding:8px 15px;border:1px solid rgba(196,118,59,.55);background:rgba(196,118,59,.09);
+  font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:var(--copper);font-weight:500;
+}
+.direct-tag::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--copper);flex:0 0 6px}
+
 header{position:relative;min-height:100vh;display:flex;align-items:flex-end;padding:130px 0 56px;overflow:hidden}
 .hero-img{
   position:absolute;inset:0;z-index:0;
@@ -84,6 +92,7 @@ h1 em{font-style:italic;color:var(--copper);display:block}
 .priceblock .lbl{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
 .priceblock .amt{font-family:'Instrument Serif',serif;font-size:clamp(2.2rem,3.4vw,3.1rem);line-height:1;margin:8px 0 4px}
 .priceblock .per{font-size:13.5px;color:#BDB7AA}
+.priceblock .owner{font-size:13.5px;color:var(--copper);margin-top:10px;padding-top:10px;border-top:1px solid var(--rule)}
 .hero-side .btn{margin-top:26px;width:100%;text-align:center}
 
 .numbers{background:var(--ink-2);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:76px 0}
@@ -106,6 +115,15 @@ section{position:relative;z-index:2}
 h2{font-size:clamp(2.1rem,4vw,3.5rem)}
 h2 em{font-style:italic;color:var(--copper)}
 .lead{font-size:clamp(1.02rem,1.25vw,1.14rem);color:#C4BEB1;max-width:46em;margin-top:22px}
+
+/* banda de venta directa */
+.ownerband{background:var(--ink-3);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:78px 0}
+.ownergrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.ownergrid h2{font-size:clamp(1.9rem,3.4vw,2.9rem)}
+.ownerpoints{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+.ownerpoints h4{font-family:'Instrument Serif',serif;font-size:20px;font-weight:400;margin-bottom:8px}
+.ownerpoints p{font-size:14.4px;color:#AEA89B;line-height:1.62}
+.ownerpoints > div{padding-top:20px;border-top:1px solid var(--rule)}
 
 .light-band{background:var(--bone);color:var(--ink);padding:118px 0}
 .light-band .eyebrow{color:var(--copper-lo)}
@@ -216,7 +234,7 @@ footer p{font-size:13.2px;color:var(--muted);max-width:40em;line-height:1.7}
 .legal{margin-top:34px;padding-top:26px;border-top:1px solid var(--rule);font-size:12px;color:#6E6A5F}
 
 @media(max-width:940px){
-  .hero-inner,.two,.two.offset,.cesion-grid,.unit,.formgrid,.videohead{grid-template-columns:1fr;gap:40px}
+  .hero-inner,.two,.two.offset,.cesion-grid,.unit,.formgrid,.videohead,.ownergrid{grid-template-columns:1fr;gap:40px}
   .numgrid{grid-template-columns:1fr}
   .num{padding:26px 0;border-left:none;border-top:1px solid var(--rule)}
   .num:first-child{border-top:none;padding-top:0}
@@ -224,9 +242,10 @@ footer p{font-size:13.2px;color:var(--muted);max-width:40em;line-height:1.7}
   .mline div{border-right:none;border-bottom:1px solid var(--rule);padding:26px 0}
   .amgrid{grid-template-columns:1fr}
   .am-a,.am-b,.am-c,.am-d{grid-column:span 1}
+  .ownerpoints{grid-template-columns:1fr;gap:26px}
   .navlinks{display:none}
   .wrap{padding:0 22px}
-  .sec,.light-band,.formsec{padding:76px 0}
+  .sec,.light-band,.formsec,.ownerband{padding:76px 0}
   .chip{border-right:none;padding-right:0;margin-right:28px}
   form{padding:26px}
 }
