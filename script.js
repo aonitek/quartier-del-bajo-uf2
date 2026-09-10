@@ -6,7 +6,7 @@
   var els=document.querySelectorAll('.reveal');
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(entries){
-      entries.forEach(function(e,i){
+      entries.forEach(function(e){
         if(e.isIntersecting){
           var d=Array.prototype.indexOf.call(e.target.parentNode.children,e.target);
           e.target.style.transitionDelay=(Math.min(d,4)*90)+'ms';
