@@ -119,7 +119,6 @@ h2 em{font-style:italic;color:var(--copper)}
 .jump p{font-size:16px;color:#CFC9BC}
 .jump b{color:var(--copper);font-weight:500}
 
-/* ---- qué hay cerca ---- */
 .nearhead{display:grid;grid-template-columns:1fr .9fr;gap:56px;align-items:end}
 .nearstat{border-left:2px solid var(--copper);padding-left:22px}
 .nearstat .n{font-family:'Instrument Serif',serif;font-size:clamp(2rem,3.2vw,2.9rem);line-height:1;color:var(--copper)}
@@ -135,6 +134,7 @@ h2 em{font-style:italic;color:var(--copper)}
 @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:26px 52px}
 .col h4{font-family:'Instrument Serif',serif;font-size:20px;font-weight:400;margin-bottom:8px;padding-bottom:14px;border-bottom:1px solid var(--rule)}
+.colnote{font-size:12.6px;color:var(--copper);letter-spacing:.04em;margin:-4px 0 6px}
 .poi{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:11px 0;border-bottom:1px solid rgba(239,234,224,.055)}
 .poi:last-child{border-bottom:none}
 .poi span{font-size:14.3px;color:#C4BEB1;line-height:1.42}
