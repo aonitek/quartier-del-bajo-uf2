@@ -2,6 +2,18 @@
   var nav=document.getElementById('nav');
   function onScroll(){ nav.classList.toggle('stuck', window.scrollY>60); }
   window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  var tabs=document.querySelectorAll('.tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      document.querySelectorAll('.tab').forEach(function(x){x.classList.remove('active')});
+      document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active')});
+      t.classList.add('active');
+      var el=document.getElementById(t.getAttribute('data-panel'));
+      if(el){el.classList.add('active')}
+    });
+  });
+
   var els=document.querySelectorAll('.reveal');
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(entries){
