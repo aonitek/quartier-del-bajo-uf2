@@ -184,7 +184,6 @@ summary::after{content:'+';position:absolute;right:6px;top:50%;transform:transla
 details[open] summary::after{content:'–'}
 details p{padding:0 60px 28px 0;font-size:15.2px;color:#B5AFA2}
 
-/* contacto */
 .contactsec{background:var(--bone);color:var(--ink);padding:118px 0}
 .contactsec .eyebrow{color:var(--copper-lo)}
 .contactsec h2 em{color:var(--copper-lo)}
