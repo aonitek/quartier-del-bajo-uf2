@@ -32,15 +32,15 @@ nav.stuck{background:rgba(18,19,15,.9);backdrop-filter:blur(14px);padding:12px 0
 .btn.dark:hover{background:transparent;color:var(--ink)}
 .navrow .btn{padding:11px 18px}
 
-.direct-tag{display:inline-flex;align-items:center;gap:10px;margin-bottom:20px;padding:8px 15px;border:1px solid rgba(196,118,59,.55);background:rgba(196,118,59,.09);font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:var(--copper);font-weight:500}
+.direct-tag{display:inline-flex;align-items:center;gap:10px;margin-bottom:20px;padding:9px 16px;border:1px solid rgba(196,118,59,.6);background:rgba(18,19,15,.55);font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:var(--copper);font-weight:500}
 .direct-tag::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--copper);flex:0 0 6px}
 
 header{position:relative;min-height:100vh;display:flex;align-items:flex-end;padding:130px 0 56px;overflow:hidden}
-.hero-img{position:absolute;inset:0;z-index:0;background-image:url('https://app.aonitek.com/objects/quick-uploads/124/ca541b4df9270fce.jpg');background-size:cover;background-position:center 38%}
-header::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(18,19,15,.97) 4%,rgba(18,19,15,.62) 46%,rgba(18,19,15,.55) 100%)}
+.hero-img{position:absolute;inset:0;z-index:0;background-image:url('https://app.aonitek.com/objects/quick-uploads/124/02da8aaf1603bc57.jpg');background-size:cover;background-position:center 42%}
+header::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(18,19,15,.97) 8%,rgba(18,19,15,.82) 42%,rgba(18,19,15,.62) 100%)}
 .hero-inner{position:relative;z-index:3;display:grid;grid-template-columns:1.35fr .65fr;gap:56px;align-items:end}
-h1{font-size:clamp(2.9rem,6.6vw,6rem);margin:22px 0 0}
-h1 em{font-style:italic;color:var(--copper);display:block}
+h1{font-size:clamp(2.7rem,6vw,5.4rem);margin:22px 0 0}
+h1 em{font-style:italic;color:var(--copper)}
 .hero-sub{font-size:clamp(1rem,1.35vw,1.18rem);color:#CFC9BC;max-width:34em;margin-top:26px}
 .chips{display:flex;flex-wrap:wrap;margin-top:38px;border-top:1px solid var(--rule)}
 .chip{padding:14px 22px 14px 0;margin-right:22px;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:#BDB7AA;border-right:1px solid var(--rule)}
