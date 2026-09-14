@@ -388,14 +388,14 @@
 
 <nav id="nav">
   <div class="wrap navrow">
-    <div class="brand">Quartier del Bajo · <em>UF 224</em></div>
+    <a href="#" class="brand" aria-label="Quartier del Bajo"><img src="https://raw.githubusercontent.com/aonitek/quartier-del-bajo-uf2/refs/heads/main/Imagenes/quartier%20logo.png" alt="Quartier del Bajo"></a>
     <div class="navlinks">
-      <a href="#directo">Venta directa</a>
-      <a href="#cesion">Cómo se compra</a>
+      <a href="#unidad">La unidad</a>
+      <a href="#amenities">Amenities</a>
       <a href="#edificio">El edificio</a>
       <a href="#zona">La zona</a>
-      <a href="#amenities">Amenities</a>
-      <a href="#unidad">La unidad</a>
+      <a href="#directo">Venta directa</a>
+      <a href="#cesion">Cómo se compra</a>
     </div>
     <a href="#contacto" class="btn">Contactar</a>
   </div>
@@ -406,7 +406,11 @@
   <div class="wrap">
     <div class="hero-inner">
       <div>
-        <div class="direct-tag">Una sola unidad · Venta directa de su dueña</div>
+        <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px">
+<span class="direct-tag" style="margin-bottom:0">Dueño directo</span>
+<span class="direct-tag" style="margin-bottom:0">Complejo en funcionamiento</span>
+<span class="direct-tag" style="margin-bottom:0">A metros de la UCA</span>
+</div>
         <div class="eyebrow">Puerto Madero · Corredor Huergo · Torre 1</div>
         <h1>Un monoambiente<br>en <em>Puerto Madero.</em></h1>
         <p class="hero-sub">35 m² en Quartier del Bajo, Torre 1, Piso 9, Sector Ciudad. Las dos torres del complejo están terminadas y entregadas. Amenities de categoría hotelera en los pisos 35 y 36.</p>
@@ -419,7 +423,7 @@
       </div>
       <div class="hero-side">
         <div class="priceblock">
-          <div class="lbl">Precio de publicación</div>
+          <div class="lbl">Precio de Venta</div>
           <div class="amt">USD 158.000</div>
           <div class="per">≈ USD 4.510 / m² · Contado en dólares</div>
           <div class="owner">Trato directo con la dueña</div>
@@ -451,69 +455,88 @@
   </div>
 </section>
 
-<section class="ownerband" id="directo" data-section="dueno-directo">
+<section class="sec" id="unidad" style="background:var(--ink-2);border-top:1px solid var(--rule)" data-section="unidad">
   <div class="wrap">
-    <div class="ownergrid">
-      <div class="reveal">
-        <div class="eyebrow">Venta directa</div>
-        <h2 style="margin-top:18px">Del otro lado<br>está la <em>dueña</em></h2>
-        <p class="lead" style="font-size:15.8px">No hay intermediario en el medio. Preguntás y te contesta quien decide, con la documentación en la mano.</p>
+    <div class="eyebrow reveal">Torre 1 · Piso 9 · Sector Ciudad</div>
+    <h2 class="reveal" style="margin-top:20px">La <em>unidad</em></h2>
+    <div class="reveal" style="margin-top:26px;padding:22px 26px;background:var(--ink-3);border-left:2px solid var(--copper);max-width:52em"><p style="font-size:16px;color:#CFC9BC">La unidad ya tiene <b style="color:var(--copper);font-weight:500">artefactos de iluminación instalados</b> y <b style="color:var(--copper);font-weight:500">cortinas hechas a medida</b>. Está lista para habitar: se entra con las valijas.</p></div>
+
+    <div class="ugrid">
+      <div class="u-main reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/02da8aaf1603bc57.jpg" alt="Ambiente principal con ventanal de piso a techo y vista a la ciudad">
+        <div class="ucap">Ambiente principal · Ventanal con DVH</div>
       </div>
-      <div class="ownerpoints">
-        <div class="reveal"><h4>Respuestas de primera mano</h4><p>Sobre el estado del trámite de subdivisión, la adjudicación y las expensas reales de la unidad — no versiones de segunda.</p></div>
-        <div class="reveal"><h4>Negociás con quien decide</h4><p>Una oferta se responde en el momento, sin pasar por una cadena de consultas ni esperar a que alguien la transmita.</p></div>
-        <div class="reveal"><h4>Documentación completa</h4><p>El comunicado de la fiduciaria y el legajo de la adjudicación están disponibles desde la primera conversación, no al final.</p></div>
-        <div class="reveal"><h4>Agenda flexible</h4><p>Las visitas se coordinan directo con la propietaria, incluidos horarios fuera del esquema de una oficina comercial.</p></div>
+      <div class="u-tall reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/a35274bc6ace9057.jpg" alt="Ambiente con cortinas colocadas">
+        <div class="ucap">El ambiente con cortinas</div>
+      </div>
+      <div class="u-third reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/b54fb045089a48d1.jpg" alt="Cocina integrada con mesada y anafe eléctrico">
+        <div class="ucap">Cocina integrada</div>
+      </div>
+      <div class="u-third reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/f15ca9eef3638e13.jpg" alt="Baño completo con porcelanato y ducha con paño fijo de vidrio">
+        <div class="ucap">Baño completo</div>
+      </div>
+      <div class="u-third reveal">
+        <div class="planbox"><img loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/cc0f4b2d6fdc79f3.jpg" alt="Plano de la unidad"></div>
+        <div class="ucap">Plano de la unidad</div>
+      </div>
+    </div>
+
+    <div class="unitlower">
+      <div class="reveal">
+        <h3 style="font-size:26px">Terminaciones</h3>
+        <ul class="factlist" style="margin-top:18px">
+          <li>Ambiente único con salida al balcón</li>
+          <li>Pisos vinílicos símil madera; cielorraso de hormigón visto en el ambiente principal</li>
+          <li>Cocina integrada con muebles bajo mesada y anafe eléctrico de dos hornallas</li>
+          <li>Baño completo con piso de porcelanato, puerta corrediza y ducha con paño fijo de vidrio</li>
+          <li>Carpinterías exteriores de aluminio de alta prestación con doble vidriado hermético</li>
+          <li>Climatización por split frío/calor</li>
+          <li>Agua caliente por termotanque eléctrico individual</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="frank">
+          <h4>Dos aclaraciones que preferimos hacer de frente</h4>
+          <p><em>No incluye cochera.</em> En Quartier del Bajo las cocheras son unidades funcionales independientes, ubicadas en tres subsuelos comunes a las dos torres: se adquieren por separado y no forman parte de esta operación.</p>
+          <p><em>No tiene gas natural.</em> Ninguna unidad del complejo lo tiene: está diseñado como edificio íntegramente eléctrico, con anafe eléctrico, termotanque individual y climatización por split. No es una carencia de esta unidad en particular.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="videoblock" data-section="video">
+<section class="sec" id="amenities" data-section="amenities">
   <div class="wrap">
-    <div class="videohead">
-      <div class="reveal">
-        <div class="eyebrow">El complejo</div>
-        <h2>Dos torres de <em>36 pisos</em></h2>
-      </div>
-      <p class="reveal">Proyectadas por el estudio Camps | Tiscornia para Argencons, sobre la manzana entre Av. Huergo y las calles Venezuela, México y Azopardo. Unidas por una plaza central de acceso.</p>
-    </div>
-    <div class="vframe reveal">
-      <video controls="" preload="metadata" playsinline="" poster="https://app.aonitek.com/objects/quick-uploads/124/ca541b4df9270fce.jpg">
-        <source src="https://app.aonitek.com/objects/quick-uploads/124/a1cad8e55a7cb8d5.mp4" type="video/mp4">
-        Tu navegador no puede reproducir este video.
-      </video>
-    </div>
-  </div>
-</section>
+    <div class="eyebrow reveal">Pisos 35 y 36</div>
+    <h2 class="reveal" style="margin-top:20px">Servicios de <em>hotel</em>,<br>arriba de todo</h2>
 
-<section class="light-band" id="cesion" data-section="cesion">
-  <div class="wrap">
-    <div class="eyebrow reveal">Transparencia desde el primer minuto</div>
-    <h2 class="reveal" style="margin-top:20px">Cómo se <em>instrumenta</em> la compra</h2>
-    <p class="lead reveal">Esta unidad se transfiere por <strong>cesión de derechos sobre unidad ya adjudicada</strong>. Es la modalidad estándar con la que se comercializan las unidades de Quartier del Bajo — incluidas las que vende el propio desarrollador.</p>
-
-    <div class="cesion-grid">
-      <div class="reveal">
-        <h3 style="font-size:26px;margin-bottom:26px">El circuito hasta la escritura</h3>
-        <ol class="steps">
-          <li><strong>Torres terminadas</strong><span>Ambas torres del complejo están construidas, entregadas y en uso.</span></li>
-          <li><strong>Plano de subdivisión</strong><span>En trámite la aprobación de la subdivisión en Propiedad Horizontal.</span></li>
-          <li><strong>Reglamento de PH</strong><span>Con el plano aprobado se otorga e inscribe la escritura del Reglamento de Propiedad Horizontal.</span></li>
-          <li><strong>Escrituras traslativas de dominio</strong><span>A partir de esa inscripción comienza la firma de escrituras y queda operativo el Consorcio de Propietarios.</span></li>
-          <li><strong>Estimación de la fiduciaria: 2027</strong><span>Es una estimación informada por la fiduciaria, no un plazo contractual. Lo comunicamos como tal.</span></li>
-        </ol>
+    <div class="amgrid">
+      <div class="am-a reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/22500df869979217.jpg" alt="Piscina exterior con solárium en el piso 36">
+        <div class="amcap"><h4>Piscina exterior y solárium</h4><p>Piso 36, con quinchos con parrilla y vistas panorámicas al río y a la ciudad desde el punto más alto de la torre.</p></div>
       </div>
-      <div class="reveal">
-        <div class="callout">
-          <h3>No es letra chica: es el estándar del complejo</h3>
-          <p>Los avisos oficiales de Quartier del Bajo, publicados por la comercializadora del desarrollador, consignan expresamente esta figura y esta condición de pago.</p>
-          <div class="quote">"Cesión de unidad ya adjudicada — Pago efectivo 100% — Entrega inmediata."</div>
-          <p>El mismo texto aparece en unidades del edificio de hasta USD 730.000. Y todos los avisos del complejo cierran aclarando que las medidas exactas surgirán de la escritura traslativa de dominio.</p>
-        </div>
-        <div class="hard">
-          <p><b>Condición de pago: contado 100% en dólares.</b><br>Esta modalidad no admite crédito hipotecario — sin Reglamento de PH inscripto no hay matrícula sobre la que un banco pueda constituir garantía. Te lo decimos de entrada para no hacerte perder tiempo.</p>
-        </div>
+      <div class="am-b reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/cdec2607a8fa5440.jpg" alt="Sauna y baño finlandés revestidos en madera">
+        <div class="amcap"><h4>Spa, sauna y baño finlandés</h4><p>Con sala de masajes e hidromasajes, en el piso 35.</p></div>
+      </div>
+      <div class="am-c reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/89b926838bd60d58.jpg" alt="Piscina cubierta climatizada con vista a la ciudad">
+        <div class="amcap"><h4>Piscina climatizada</h4><p>Cubierta, para uso durante todo el año.</p></div>
+      </div>
+      <div class="am-d reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/6ec06d725f5210b4.jpg" alt="Gimnasio con ventanal al skyline porteño">
+        <div class="amcap"><h4>Gimnasio</h4><p>Equipamiento completo de cardio y musculación, con vestuarios y ventanal corrido sobre el skyline.</p></div>
+      </div>
+      <div class="am-e reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/2bd87c2c2f21ec4a.jpg" alt="SUM del edificio con mesas y vista panorámica">
+        <div class="amcap"><h4>SUM</h4><p>Salón de usos múltiples con vista panorámica, para recibir invitados o celebrar sin salir del edificio.</p></div>
+      </div>
+      <div class="am-f reveal">
+        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/7cacc4c346c1e922.jpg" alt="Espacio de coworking con sillones y mesas altas frente al ventanal">
+        <div class="amcap"><h4>Coworking</h4><p>Sillones y mesas de trabajo contra el ventanal, para trabajar o tener una reunión a metros de tu departamento.</p></div>
       </div>
     </div>
   </div>
@@ -542,6 +565,24 @@
         <img class="shot" style="aspect-ratio:4/3;margin-top:22px" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/d0e1b0fee5eb69f2.jpg" alt="Hall de acceso de doble altura de Quartier del Bajo">
         <div class="ucap">Hall de acceso · Planta baja</div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="videoblock" data-section="video">
+  <div class="wrap">
+    <div class="videohead">
+      <div class="reveal">
+        <div class="eyebrow">El complejo</div>
+        <h2>Dos torres de <em>36 pisos</em></h2>
+      </div>
+      <p class="reveal">Proyectadas por el estudio Camps | Tiscornia para Argencons, sobre la manzana entre Av. Huergo y las calles Venezuela, México y Azopardo. Unidas por una plaza central de acceso.</p>
+    </div>
+    <div class="vframe reveal">
+      <video controls="" preload="metadata" playsinline="" poster="https://app.aonitek.com/objects/quick-uploads/124/ca541b4df9270fce.jpg">
+        <source src="https://app.aonitek.com/objects/quick-uploads/124/a1cad8e55a7cb8d5.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+      </video>
     </div>
   </div>
 </section>
@@ -696,93 +737,6 @@
   </div>
 </section>
 
-<section class="sec" id="amenities" data-section="amenities">
-  <div class="wrap">
-    <div class="eyebrow reveal">Pisos 35 y 36</div>
-    <h2 class="reveal" style="margin-top:20px">Servicios de <em>hotel</em>,<br>arriba de todo</h2>
-
-    <div class="amgrid">
-      <div class="am-a reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/22500df869979217.jpg" alt="Piscina exterior con solárium en el piso 36">
-        <div class="amcap"><h4>Piscina exterior y solárium</h4><p>Piso 36, con quinchos con parrilla y vistas panorámicas al río y a la ciudad desde el punto más alto de la torre.</p></div>
-      </div>
-      <div class="am-b reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/cdec2607a8fa5440.jpg" alt="Sauna y baño finlandés revestidos en madera">
-        <div class="amcap"><h4>Spa, sauna y baño finlandés</h4><p>Con sala de masajes e hidromasajes, en el piso 35.</p></div>
-      </div>
-      <div class="am-c reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/89b926838bd60d58.jpg" alt="Piscina cubierta climatizada con vista a la ciudad">
-        <div class="amcap"><h4>Piscina climatizada</h4><p>Cubierta, para uso durante todo el año.</p></div>
-      </div>
-      <div class="am-d reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/6ec06d725f5210b4.jpg" alt="Gimnasio con ventanal al skyline porteño">
-        <div class="amcap"><h4>Gimnasio</h4><p>Equipamiento completo de cardio y musculación, con vestuarios y ventanal corrido sobre el skyline.</p></div>
-      </div>
-      <div class="am-e reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/2bd87c2c2f21ec4a.jpg" alt="SUM del edificio con mesas y vista panorámica">
-        <div class="amcap"><h4>SUM</h4><p>Salón de usos múltiples con vista panorámica, para recibir invitados o celebrar sin salir del edificio.</p></div>
-      </div>
-      <div class="am-f reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/7cacc4c346c1e922.jpg" alt="Espacio de coworking con sillones y mesas altas frente al ventanal">
-        <div class="amcap"><h4>Coworking</h4><p>Sillones y mesas de trabajo contra el ventanal, para trabajar o tener una reunión a metros de tu departamento.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="sec" id="unidad" style="background:var(--ink-2);border-top:1px solid var(--rule)" data-section="unidad">
-  <div class="wrap">
-    <div class="eyebrow reveal">Torre 1 · Piso 9 · Sector Ciudad</div>
-    <h2 class="reveal" style="margin-top:20px">La <em>unidad</em></h2>
-    <div class="uf-tag reveal">Unidad 2 del Piso 9, Sector Ciudad · Unidad Funcional Nº <b>224</b> · Torre 1</div>
-
-    <div class="ugrid">
-      <div class="u-main reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/02da8aaf1603bc57.jpg" alt="Ambiente principal con ventanal de piso a techo y vista a la ciudad">
-        <div class="ucap">Ambiente principal · Ventanal con DVH</div>
-      </div>
-      <div class="u-tall reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/a35274bc6ace9057.jpg" alt="Ambiente con cortinas colocadas">
-        <div class="ucap">El ambiente con cortinas</div>
-      </div>
-      <div class="u-third reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/b54fb045089a48d1.jpg" alt="Cocina integrada con mesada y anafe eléctrico">
-        <div class="ucap">Cocina integrada</div>
-      </div>
-      <div class="u-third reveal">
-        <img class="shot" loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/f15ca9eef3638e13.jpg" alt="Baño completo con porcelanato y ducha con paño fijo de vidrio">
-        <div class="ucap">Baño completo</div>
-      </div>
-      <div class="u-third reveal">
-        <div class="planbox"><img loading="lazy" src="https://app.aonitek.com/objects/quick-uploads/124/cc0f4b2d6fdc79f3.jpg" alt="Plano de la Unidad Funcional 224"></div>
-        <div class="ucap">Plano de la UF 224</div>
-      </div>
-    </div>
-
-    <div class="unitlower">
-      <div class="reveal">
-        <h3 style="font-size:26px">Terminaciones</h3>
-        <ul class="factlist" style="margin-top:18px">
-          <li>Ambiente único con salida al balcón</li>
-          <li>Pisos vinílicos símil madera; cielorraso de hormigón visto en el ambiente principal</li>
-          <li>Cocina integrada con muebles bajo mesada y anafe eléctrico de dos hornallas</li>
-          <li>Baño completo con piso de porcelanato, puerta corrediza y ducha con paño fijo de vidrio</li>
-          <li>Carpinterías exteriores de aluminio de alta prestación con doble vidriado hermético</li>
-          <li>Climatización por split frío/calor</li>
-          <li>Agua caliente por termotanque eléctrico individual</li>
-        </ul>
-      </div>
-      <div class="reveal">
-        <div class="frank">
-          <h4>Dos aclaraciones que preferimos hacer de frente</h4>
-          <p><em>No incluye cochera.</em> En Quartier del Bajo las cocheras son unidades funcionales independientes, ubicadas en tres subsuelos comunes a las dos torres: se adquieren por separado y no forman parte de esta operación.</p>
-          <p><em>No tiene gas natural.</em> Ninguna unidad del complejo lo tiene: está diseñado como edificio íntegramente eléctrico, con anafe eléctrico, termotanque individual y climatización por split. No es una carencia de esta unidad en particular.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="sec" id="renta" data-section="renta">
   <div class="wrap">
     <div class="eyebrow reveal">Inversión y renta</div>
@@ -797,9 +751,54 @@
       </tbody>
     </table>
     <p style="font-size:13.5px;color:var(--muted);margin-top:14px">Valores + gastos, tomados de avisos activos del edificio. Expensas de la unidad: $168.900.</p>
-    <div class="honest reveal">
-      <h4>Y una aclaración honesta</h4>
-      <p>Puerto Madero tiene la rentabilidad de alquiler más baja de la Ciudad (3,3%), que es la contracara lógica de ser el barrio más caro. El fuerte de esta compra es el ticket de entrada, la entrega inmediata y la reserva de valor en dólares — no un yield récord. El monoambiente es, eso sí, la tipología con más rotación de alquiler temporario del edificio.</p>
+  </div>
+</section>
+
+<section class="ownerband" id="directo" data-section="dueno-directo">
+  <div class="wrap">
+    <div class="ownergrid">
+      <div class="reveal">
+        <div class="eyebrow">Venta directa</div>
+        <h2 style="margin-top:18px">Del otro lado<br>está la <em>dueña</em></h2>
+        <p class="lead" style="font-size:15.8px">No hay intermediario en el medio. Preguntás y te contesta quien decide, con la documentación en la mano.</p>
+      </div>
+      <div class="ownerpoints">
+        <div class="reveal"><h4>Respuestas de primera mano</h4><p>Sobre el estado del trámite de subdivisión, la adjudicación y las expensas reales de la unidad — no versiones de segunda.</p></div>
+        <div class="reveal"><h4>Negociás con quien decide</h4><p>Una oferta se responde en el momento, sin pasar por una cadena de consultas ni esperar a que alguien la transmita.</p></div>
+        <div class="reveal"><h4>Agenda flexible</h4><p>Las visitas se coordinan directo con la propietaria, incluidos horarios fuera del esquema de una oficina comercial.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="light-band" id="cesion" data-section="cesion">
+  <div class="wrap">
+    <div class="eyebrow reveal">Transparencia desde el primer minuto</div>
+    <h2 class="reveal" style="margin-top:20px">Cómo se <em>instrumenta</em> la compra</h2>
+    <p class="lead reveal">Esta unidad se transfiere por <strong>cesión de derechos sobre unidad ya adjudicada</strong>. Es la modalidad estándar con la que se comercializan las unidades de Quartier del Bajo — incluidas las que vende el propio desarrollador.</p>
+
+    <div class="cesion-grid">
+      <div class="reveal">
+        <h3 style="font-size:26px;margin-bottom:26px">El circuito hasta la escritura</h3>
+        <ol class="steps">
+          <li><strong>Torres terminadas</strong><span>Ambas torres del complejo están construidas, entregadas y en uso.</span></li>
+          <li><strong>Plano de subdivisión</strong><span>En trámite la aprobación de la subdivisión en Propiedad Horizontal.</span></li>
+          <li><strong>Reglamento de PH</strong><span>Con el plano aprobado se otorga e inscribe la escritura del Reglamento de Propiedad Horizontal.</span></li>
+          <li><strong>Escrituras traslativas de dominio</strong><span>A partir de esa inscripción comienza la firma de escrituras y queda operativo el Consorcio de Propietarios.</span></li>
+          <li><strong>Estimación de la fiduciaria: 2027</strong><span>Es una estimación informada por la fiduciaria, no un plazo contractual. Lo comunicamos como tal.</span></li>
+        </ol>
+      </div>
+      <div class="reveal">
+        <div class="callout">
+          <h3>No es letra chica: es el estándar del complejo</h3>
+          <p>Los avisos oficiales de Quartier del Bajo, publicados por la comercializadora del desarrollador, consignan expresamente esta figura y esta condición de pago.</p>
+          <div class="quote">"Cesión de unidad ya adjudicada — Pago efectivo 100% — Entrega inmediata."</div>
+          <p>El mismo texto aparece en unidades del edificio de hasta USD 730.000. Y todos los avisos del complejo cierran aclarando que las medidas exactas surgirán de la escritura traslativa de dominio.</p>
+        </div>
+        <div class="hard">
+          <p><b>Condición de pago: contado 100% en dólares.</b><br>Esta modalidad no admite crédito hipotecario — sin Reglamento de PH inscripto no hay matrícula sobre la que un banco pueda constituir garantía. Te lo decimos de entrada para no hacerte perder tiempo.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -840,7 +839,7 @@
         <div class="k">Email</div>
         <div class="v">analaurazamit@gmail.com</div>
         <p class="d">Si preferís dejar la consulta por escrito o mandar una oferta formal, escribinos y te respondemos con todo el material.</p>
-        <a class="btn dark" href="mailto:analaurazamit@gmail.com?subject=Consulta%20por%20la%20UF%20224%20—%20Quartier%20del%20Bajo">Escribir un mail</a>
+        <a class="btn dark" href="mailto:analaurazamit@gmail.com?subject=Consulta%20por%20el%20monoambiente%20—%20Quartier%20del%20Bajo">Escribir un mail</a>
       </div>
     </div>
 
@@ -852,12 +851,12 @@
   <div class="wrap">
     <div class="frow">
       <div>
-        <div class="brand" style="font-size:22px">Quartier del Bajo · <em>UF 224</em></div>
-        <p style="margin-top:14px">Av. Ing. Huergo 551, Puerto Madero, Ciudad Autónoma de Buenos Aires.<br>Torre 1 · Piso 9 · Sector Ciudad · Unidad 2 — Unidad Funcional Nº 224.<br>Venta directa de la propietaria.</p>
+        <img class="flogo" src="https://raw.githubusercontent.com/aonitek/quartier-del-bajo-uf2/refs/heads/main/Imagenes/quartier%20logo.png" alt="Quartier del Bajo">
+        <p style="margin-top:14px">Av. Ing. Huergo 551, Puerto Madero, Ciudad Autónoma de Buenos Aires.<br>Torre 1 · Piso 9 · Sector Ciudad.<br>Venta directa de la propietaria.</p>
       </div>
       <div style="text-align:right;min-width:220px">
         <p style="font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--copper)">Contacto directo</p>
-        <p style="margin-top:10px"><a href="https://wa.me/5491161975818" target="_blank" rel="noopener" contenteditable="true">+54 9 11 6197-5818</a><br><a href="mailto:analaurazamit@gmail.com" contenteditable="true">analaurazamit@gmail.com</a></p>
+        <p style="margin-top:10px"><a href="https://wa.me/5491161975818" target="_blank" rel="noopener">+54 9 11 6197-5818</a><br><a href="mailto:analaurazamit@gmail.com">analaurazamit@gmail.com</a></p>
       </div>
     </div>
     <p class="legal">Los metros publicados son aproximados; las medidas exactas surgirán de la escritura traslativa de dominio. La unidad se transfiere por cesión de derechos sobre unidad ya adjudicada, con pago contado 100% en dólares; la operación no admite crédito hipotecario. El cronograma de escrituración indicado es una estimación informada por la fiduciaria y no constituye un plazo contractual. Las cocheras del complejo son unidades funcionales independientes y no integran esta operación. Las distancias a puntos de interés son aproximadas y provienen de relevamientos públicos de la zona. Las imágenes de áreas comunes corresponden al complejo y tienen carácter ilustrativo. Esta publicación no constituye oferta ni asesoramiento legal, impositivo o financiero.</p>
